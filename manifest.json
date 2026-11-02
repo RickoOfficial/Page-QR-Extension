@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Page QR",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shows an offline QR code for the current page from the context menu.",
   "update_url": "https://extension-updates.opera.com/api/omaha/update/",
   "permissions": ["contextMenus", "activeTab", "scripting"],
