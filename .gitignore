@@ -1,9 +1,8 @@
 # Dependency directories and local tool state
 node_modules/
-.web-ext/
+/cli/
 
 # Generated extension packages and build output
-/web-ext-artifacts/
 /dist/
 /build/
 *.xpi

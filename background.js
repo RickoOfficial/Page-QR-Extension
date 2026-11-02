@@ -13,7 +13,6 @@ function createMenu() {
 chrome.runtime.onInstalled.addListener(createMenu);
 chrome.runtime.onStartup.addListener(createMenu);
 
-// Keep this listener at the service-worker top level for Firefox MV3.
 chrome.contextMenus.onClicked.addListener((info, tab) => {
   if (info.menuItemId !== MENU_ID || !tab?.id) {
     return;
